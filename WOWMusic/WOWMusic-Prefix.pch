@@ -1,0 +1,47 @@
+//
+//  WOWMusic-Prefix.pch
+//  WOWMusic
+//
+//  Created by wwwbbat on 14-12-18.
+//  Copyright (c) 2014年 wwwbbat. All rights reserved.
+//
+
+#ifndef WOWMusic_WOWMusic_Prefix_pch
+#define WOWMusic_WOWMusic_Prefix_pch
+
+#import <Availability.h>
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#pragma mark - Device  设备、数据相关
+#define Device_Model                ([UIDevice currentDevice].model)
+#define Device_Name                 ([UIDevice currentDevice].name)
+#define Device_LocalizedModel   ([UIDevice currentDevice].localizedModel)
+#define Device_SystemName       ([UIDevice currentDevice].systemName)
+#define Device_SystemVersion    [[UIDevice currentDevice].systemVersion floatValue]
+#define Device_Width   ([UIScreen mainScreen].bounds.size.width)
+#define Device_Height   ([UIScreen mainScreen].bounds.size.height)
+#define Device_InterfaceIdiom (UI_USER_INTERFACE_IDIOM())
+#define Device_DocumentPath (NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0])
+
+#pragma mark - Ohter
+#define kUIBarButtonItemFix [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil]
+
+#define kSqliteFileName @"wowdata.sqlite3"
+#define WOWKeywords @[@"wow",@"tbc",@"wlk",@"ctm",@"mop",@"doc"]
+
+
+#pragma mark - Storyboard Identifier
+#define WMMusicTableViewCellID_iPhone @"WMMusicTableViewCellID_iPhone" //曲库TableViewCell Identifier
+#define WMMusicTableViewCellID_iPad @"WMMusicTableViewCellID_iPad" //曲库TableViewCell Identifier
+#define WMMusicListTableViewCellID @"WMMusicListTableViewCellID" //曲子列表TableViewCell Identifier
+
+#pragma mark - Storyboard Segue Identifier
+#define Segue_MusicListDetain @"Segue_MusicListDetain" //曲库分类跳转曲库详细列表
+
+#endif //WOWMusic_WOWMusic_Prefix_pch

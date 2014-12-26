@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D144AB41A493E5700D4F72A /* Sqlite3Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D144AB31A493E5700D4F72A /* Sqlite3Helper.m */; };
+		2D144AB61A493E6600D4F72A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D144AB51A493E6600D4F72A /* libsqlite3.dylib */; };
+		2D144ABA1A4940CD00D4F72A /* wowdata.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D144AB91A4940CD00D4F72A /* wowdata.sqlite3 */; };
+		2D144ABC1A49574100D4F72A /* A Hero s Sacrifice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D144ABB1A49574100D4F72A /* A Hero s Sacrifice.mp3 */; };
+		2D144AC01A49724800D4F72A /* WMPlayHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D144ABF1A49724800D4F72A /* WMPlayHelper.m */; };
+		2D2563701A42BAC3006B3734 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25636F1A42BAC3006B3734 /* MainTabBarController.m */; };
+		2D2563741A42BF44006B3734 /* WMMusicsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2563731A42BF44006B3734 /* WMMusicsTableViewController.m */; };
+		2D25637C1A42BFA3006B3734 /* WMFavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25637B1A42BFA3006B3734 /* WMFavoriteViewController.m */; };
+		2D25637F1A42BFB9006B3734 /* WMDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25637E1A42BFB9006B3734 /* WMDownloadViewController.m */; };
+		2D3A42371A47BF160013883A /* WMMusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3A42361A47BF160013883A /* WMMusicListViewController.m */; };
+		2D3A42391A47EDD60013883A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D3A42381A47EDD60013883A /* Default-568h@2x.png */; };
+		2D4D26691A4BAD030027E6B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4D26681A4BAD030027E6B0 /* AVFoundation.framework */; };
+		2D4D266C1A4BB0B00027E6B0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4D266B1A4BB0B00027E6B0 /* AudioToolbox.framework */; };
+		2D4D266F1A4BF8D40027E6B0 /* WMPlayNotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4D266E1A4BF8D40027E6B0 /* WMPlayNotificationHelper.m */; };
+		2D4D26761A4BFA070027E6B0 /* NSError+ErrorNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4D26751A4BFA070027E6B0 /* NSError+ErrorNotification.m */; };
+		2D4D267A1A4C034D0027E6B0 /* UIToolbar+playControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4D26791A4C034D0027E6B0 /* UIToolbar+playControl.m */; };
+		2D4D267C1A4C0D6C0027E6B0 /* Rise to the Dark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2D4D267B1A4C0D6C0027E6B0 /* Rise to the Dark.mp3 */; };
+		2DE1224D1A412DE60065AC06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1224C1A412DE60065AC06 /* main.m */; };
+		2DE122501A412DE60065AC06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1224F1A412DE60065AC06 /* AppDelegate.m */; };
+		2DE122591A412DE60065AC06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE122571A412DE60065AC06 /* Main.storyboard */; };
+		2DE1225B1A412DE60065AC06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE1225A1A412DE60065AC06 /* Images.xcassets */; };
+		2DE1225E1A412DE60065AC06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DE1225C1A412DE60065AC06 /* LaunchScreen.xib */; };
+		2DE1226A1A412DE60065AC06 /* WOWMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE122691A412DE60065AC06 /* WOWMusicTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DE122641A412DE60065AC06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DE1223F1A412DE50065AC06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DE122461A412DE50065AC06;
+			remoteInfo = WOWMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D144AB21A493E5700D4F72A /* Sqlite3Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sqlite3Helper.h; path = Helper/Sqlite3Helper.h; sourceTree = "<group>"; };
+		2D144AB31A493E5700D4F72A /* Sqlite3Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sqlite3Helper.m; path = Helper/Sqlite3Helper.m; sourceTree = "<group>"; };
+		2D144AB51A493E6600D4F72A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		2D144AB91A4940CD00D4F72A /* wowdata.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = wowdata.sqlite3; sourceTree = "<group>"; };
+		2D144ABB1A49574100D4F72A /* A Hero s Sacrifice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A Hero s Sacrifice.mp3"; sourceTree = "<group>"; };
+		2D144ABE1A49724800D4F72A /* WMPlayHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMPlayHelper.h; path = Helper/WMPlayHelper.h; sourceTree = "<group>"; };
+		2D144ABF1A49724800D4F72A /* WMPlayHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMPlayHelper.m; path = Helper/WMPlayHelper.m; sourceTree = "<group>"; };
+		2D25636E1A42BAC3006B3734 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTabBarController.h; path = ViewControllers/MainTabBarController.h; sourceTree = "<group>"; };
+		2D25636F1A42BAC3006B3734 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTabBarController.m; path = ViewControllers/MainTabBarController.m; sourceTree = "<group>"; };
+		2D2563721A42BF44006B3734 /* WMMusicsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMMusicsTableViewController.h; path = ViewControllers/WMMusicsTableViewController.h; sourceTree = "<group>"; };
+		2D2563731A42BF44006B3734 /* WMMusicsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMMusicsTableViewController.m; path = ViewControllers/WMMusicsTableViewController.m; sourceTree = "<group>"; };
+		2D25637A1A42BFA3006B3734 /* WMFavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMFavoriteViewController.h; path = ViewControllers/WMFavoriteViewController.h; sourceTree = "<group>"; };
+		2D25637B1A42BFA3006B3734 /* WMFavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMFavoriteViewController.m; path = ViewControllers/WMFavoriteViewController.m; sourceTree = "<group>"; };
+		2D25637D1A42BFB9006B3734 /* WMDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMDownloadViewController.h; path = ViewControllers/WMDownloadViewController.h; sourceTree = "<group>"; };
+		2D25637E1A42BFB9006B3734 /* WMDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMDownloadViewController.m; path = ViewControllers/WMDownloadViewController.m; sourceTree = "<group>"; };
+		2D2563811A42C177006B3734 /* WOWMusic-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WOWMusic-Prefix.pch"; sourceTree = "<group>"; };
+		2D3A42351A47BF160013883A /* WMMusicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMMusicListViewController.h; path = ViewControllers/WMMusicListViewController.h; sourceTree = "<group>"; };
+		2D3A42361A47BF160013883A /* WMMusicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMMusicListViewController.m; path = ViewControllers/WMMusicListViewController.m; sourceTree = "<group>"; };
+		2D3A42381A47EDD60013883A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2D4D26681A4BAD030027E6B0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2D4D266A1A4BB0B00027E6B0 /* WOWMusic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WOWMusic.entitlements; sourceTree = "<group>"; };
+		2D4D266B1A4BB0B00027E6B0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2D4D266D1A4BF8D40027E6B0 /* WMPlayNotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMPlayNotificationHelper.h; path = Helper/WMPlayNotificationHelper.h; sourceTree = "<group>"; };
+		2D4D266E1A4BF8D40027E6B0 /* WMPlayNotificationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMPlayNotificationHelper.m; path = Helper/WMPlayNotificationHelper.m; sourceTree = "<group>"; };
+		2D4D26741A4BFA070027E6B0 /* NSError+ErrorNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+ErrorNotification.h"; path = "Category/NSError+ErrorNotification.h"; sourceTree = "<group>"; };
+		2D4D26751A4BFA070027E6B0 /* NSError+ErrorNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+ErrorNotification.m"; path = "Category/NSError+ErrorNotification.m"; sourceTree = "<group>"; };
+		2D4D26781A4C034D0027E6B0 /* UIToolbar+playControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+playControl.h"; path = "Category/UIToolbar+playControl.h"; sourceTree = "<group>"; };
+		2D4D26791A4C034D0027E6B0 /* UIToolbar+playControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+playControl.m"; path = "Category/UIToolbar+playControl.m"; sourceTree = "<group>"; };
+		2D4D267B1A4C0D6C0027E6B0 /* Rise to the Dark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rise to the Dark.mp3"; sourceTree = "<group>"; };
+		2DE122471A412DE60065AC06 /* WOWMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WOWMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE1224B1A412DE60065AC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE1224C1A412DE60065AC06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DE1224E1A412DE60065AC06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DE1224F1A412DE60065AC06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DE122581A412DE60065AC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DE1225A1A412DE60065AC06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2DE1225D1A412DE60065AC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2DE122631A412DE60065AC06 /* WOWMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WOWMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE122681A412DE60065AC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE122691A412DE60065AC06 /* WOWMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WOWMusicTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DE122441A412DE50065AC06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4D26691A4BAD030027E6B0 /* AVFoundation.framework in Frameworks */,
+				2D144AB61A493E6600D4F72A /* libsqlite3.dylib in Frameworks */,
+				2D4D266C1A4BB0B00027E6B0 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE122601A412DE60065AC06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D144AB11A493E4900D4F72A /* Helper + Category */ = {
+			isa = PBXGroup;
+			children = (
+				2D4D26771A4C02F10027E6B0 /* Play ToolBar */,
+				2D4D26701A4BF9980027E6B0 /* ErrorCategory */,
+				2D144ABD1A49721000D4F72A /* Player */,
+				2D144AB21A493E5700D4F72A /* Sqlite3Helper.h */,
+				2D144AB31A493E5700D4F72A /* Sqlite3Helper.m */,
+			);
+			name = "Helper + Category";
+			sourceTree = "<group>";
+		};
+		2D144AB71A49409A00D4F72A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2D4D266B1A4BB0B00027E6B0 /* AudioToolbox.framework */,
+				2D4D26681A4BAD030027E6B0 /* AVFoundation.framework */,
+				2D144AB51A493E6600D4F72A /* libsqlite3.dylib */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		2D144AB81A4940B100D4F72A /* database */ = {
+			isa = PBXGroup;
+			children = (
+				2D4D267B1A4C0D6C0027E6B0 /* Rise to the Dark.mp3 */,
+				2D144ABB1A49574100D4F72A /* A Hero s Sacrifice.mp3 */,
+				2D144AB91A4940CD00D4F72A /* wowdata.sqlite3 */,
+			);
+			name = database;
+			sourceTree = "<group>";
+		};
+		2D144ABD1A49721000D4F72A /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				2D144ABE1A49724800D4F72A /* WMPlayHelper.h */,
+				2D144ABF1A49724800D4F72A /* WMPlayHelper.m */,
+				2D4D266D1A4BF8D40027E6B0 /* WMPlayNotificationHelper.h */,
+				2D4D266E1A4BF8D40027E6B0 /* WMPlayNotificationHelper.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		2D25636D1A42BA8D006B3734 /* 曲库 */ = {
+			isa = PBXGroup;
+			children = (
+				2D2563721A42BF44006B3734 /* WMMusicsTableViewController.h */,
+				2D2563731A42BF44006B3734 /* WMMusicsTableViewController.m */,
+				2D3A42351A47BF160013883A /* WMMusicListViewController.h */,
+				2D3A42361A47BF160013883A /* WMMusicListViewController.m */,
+			);
+			name = "曲库";
+			sourceTree = "<group>";
+		};
+		2D2563711A42BEFF006B3734 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				2D2563791A42BF6D006B3734 /* 喜爱 */,
+				2D2563751A42BF4A006B3734 /* 下载 */,
+				2D25636D1A42BA8D006B3734 /* 曲库 */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		2D2563751A42BF4A006B3734 /* 下载 */ = {
+			isa = PBXGroup;
+			children = (
+				2D25637D1A42BFB9006B3734 /* WMDownloadViewController.h */,
+				2D25637E1A42BFB9006B3734 /* WMDownloadViewController.m */,
+			);
+			name = "下载";
+			sourceTree = "<group>";
+		};
+		2D2563791A42BF6D006B3734 /* 喜爱 */ = {
+			isa = PBXGroup;
+			children = (
+				2D25637A1A42BFA3006B3734 /* WMFavoriteViewController.h */,
+				2D25637B1A42BFA3006B3734 /* WMFavoriteViewController.m */,
+			);
+			name = "喜爱";
+			sourceTree = "<group>";
+		};
+		2D4D26701A4BF9980027E6B0 /* ErrorCategory */ = {
+			isa = PBXGroup;
+			children = (
+				2D4D26741A4BFA070027E6B0 /* NSError+ErrorNotification.h */,
+				2D4D26751A4BFA070027E6B0 /* NSError+ErrorNotification.m */,
+			);
+			name = ErrorCategory;
+			sourceTree = "<group>";
+		};
+		2D4D26771A4C02F10027E6B0 /* Play ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				2D4D26781A4C034D0027E6B0 /* UIToolbar+playControl.h */,
+				2D4D26791A4C034D0027E6B0 /* UIToolbar+playControl.m */,
+			);
+			name = "Play ToolBar";
+			sourceTree = "<group>";
+		};
+		2DE1223E1A412DE50065AC06 = {
+			isa = PBXGroup;
+			children = (
+				2DE122491A412DE60065AC06 /* WOWMusic */,
+				2DE122661A412DE60065AC06 /* WOWMusicTests */,
+				2DE122481A412DE60065AC06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DE122481A412DE60065AC06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DE122471A412DE60065AC06 /* WOWMusic.app */,
+				2DE122631A412DE60065AC06 /* WOWMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DE122491A412DE60065AC06 /* WOWMusic */ = {
+			isa = PBXGroup;
+			children = (
+				2D4D266A1A4BB0B00027E6B0 /* WOWMusic.entitlements */,
+				2D144AB71A49409A00D4F72A /* lib */,
+				2D144AB11A493E4900D4F72A /* Helper + Category */,
+				2D144AB81A4940B100D4F72A /* database */,
+				2D2563711A42BEFF006B3734 /* VC */,
+				2DE1224E1A412DE60065AC06 /* AppDelegate.h */,
+				2DE1224F1A412DE60065AC06 /* AppDelegate.m */,
+				2DE122571A412DE60065AC06 /* Main.storyboard */,
+				2DE1225A1A412DE60065AC06 /* Images.xcassets */,
+				2DE1225C1A412DE60065AC06 /* LaunchScreen.xib */,
+				2DE1224A1A412DE60065AC06 /* Supporting Files */,
+				2D25636E1A42BAC3006B3734 /* MainTabBarController.h */,
+				2D25636F1A42BAC3006B3734 /* MainTabBarController.m */,
+			);
+			path = WOWMusic;
+			sourceTree = "<group>";
+		};
+		2DE1224A1A412DE60065AC06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D3A42381A47EDD60013883A /* Default-568h@2x.png */,
+				2DE1224B1A412DE60065AC06 /* Info.plist */,
+				2DE1224C1A412DE60065AC06 /* main.m */,
+				2D2563811A42C177006B3734 /* WOWMusic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DE122661A412DE60065AC06 /* WOWMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DE122691A412DE60065AC06 /* WOWMusicTests.m */,
+				2DE122671A412DE60065AC06 /* Supporting Files */,
+			);
+			path = WOWMusicTests;
+			sourceTree = "<group>";
+		};
+		2DE122671A412DE60065AC06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DE122681A412DE60065AC06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DE122461A412DE50065AC06 /* WOWMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE1226D1A412DE60065AC06 /* Build configuration list for PBXNativeTarget "WOWMusic" */;
+			buildPhases = (
+				2DE122431A412DE50065AC06 /* Sources */,
+				2DE122441A412DE50065AC06 /* Frameworks */,
+				2DE122451A412DE50065AC06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WOWMusic;
+			productName = WOWMusic;
+			productReference = 2DE122471A412DE60065AC06 /* WOWMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DE122621A412DE60065AC06 /* WOWMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DE122701A412DE60065AC06 /* Build configuration list for PBXNativeTarget "WOWMusicTests" */;
+			buildPhases = (
+				2DE1225F1A412DE60065AC06 /* Sources */,
+				2DE122601A412DE60065AC06 /* Frameworks */,
+				2DE122611A412DE60065AC06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DE122651A412DE60065AC06 /* PBXTargetDependency */,
+			);
+			name = WOWMusicTests;
+			productName = WOWMusicTests;
+			productReference = 2DE122631A412DE60065AC06 /* WOWMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DE1223F1A412DE50065AC06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = wwwbbat;
+				TargetAttributes = {
+					2DE122461A412DE50065AC06 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 8QP3ZT6EXM;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
+					};
+					2DE122621A412DE60065AC06 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 2DE122461A412DE50065AC06;
+					};
+				};
+			};
+			buildConfigurationList = 2DE122421A412DE50065AC06 /* Build configuration list for PBXProject "WOWMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DE1223E1A412DE50065AC06;
+			productRefGroup = 2DE122481A412DE60065AC06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DE122461A412DE50065AC06 /* WOWMusic */,
+				2DE122621A412DE60065AC06 /* WOWMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DE122451A412DE50065AC06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4D267C1A4C0D6C0027E6B0 /* Rise to the Dark.mp3 in Resources */,
+				2D144ABA1A4940CD00D4F72A /* wowdata.sqlite3 in Resources */,
+				2D3A42391A47EDD60013883A /* Default-568h@2x.png in Resources */,
+				2DE122591A412DE60065AC06 /* Main.storyboard in Resources */,
+				2D144ABC1A49574100D4F72A /* A Hero s Sacrifice.mp3 in Resources */,
+				2DE1225E1A412DE60065AC06 /* LaunchScreen.xib in Resources */,
+				2DE1225B1A412DE60065AC06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE122611A412DE60065AC06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DE122431A412DE50065AC06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE122501A412DE60065AC06 /* AppDelegate.m in Sources */,
+				2DE1224D1A412DE60065AC06 /* main.m in Sources */,
+				2D4D266F1A4BF8D40027E6B0 /* WMPlayNotificationHelper.m in Sources */,
+				2D3A42371A47BF160013883A /* WMMusicListViewController.m in Sources */,
+				2D144AC01A49724800D4F72A /* WMPlayHelper.m in Sources */,
+				2D2563701A42BAC3006B3734 /* MainTabBarController.m in Sources */,
+				2D25637C1A42BFA3006B3734 /* WMFavoriteViewController.m in Sources */,
+				2D25637F1A42BFB9006B3734 /* WMDownloadViewController.m in Sources */,
+				2D2563741A42BF44006B3734 /* WMMusicsTableViewController.m in Sources */,
+				2D4D267A1A4C034D0027E6B0 /* UIToolbar+playControl.m in Sources */,
+				2D144AB41A493E5700D4F72A /* Sqlite3Helper.m in Sources */,
+				2D4D26761A4BFA070027E6B0 /* NSError+ErrorNotification.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE1225F1A412DE60065AC06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DE1226A1A412DE60065AC06 /* WOWMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DE122651A412DE60065AC06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DE122461A412DE50065AC06 /* WOWMusic */;
+			targetProxy = 2DE122641A412DE60065AC06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DE122571A412DE60065AC06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE122581A412DE60065AC06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DE1225C1A412DE60065AC06 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DE1225D1A412DE60065AC06 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DE1226B1A412DE60065AC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WOWMusic/WOWMusic-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DE1226C1A412DE60065AC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WOWMusic/WOWMusic-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DE1226E1A412DE60065AC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WOWMusic/WOWMusic.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WOWMusic/WOWMusic-Prefix.pch";
+				INFOPLIST_FILE = WOWMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DE1226F1A412DE60065AC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WOWMusic/WOWMusic.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WOWMusic/WOWMusic-Prefix.pch";
+				INFOPLIST_FILE = WOWMusic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2DE122711A412DE60065AC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WOWMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WOWMusic.app/WOWMusic";
+			};
+			name = Debug;
+		};
+		2DE122721A412DE60065AC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WOWMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WOWMusic.app/WOWMusic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DE122421A412DE50065AC06 /* Build configuration list for PBXProject "WOWMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE1226B1A412DE60065AC06 /* Debug */,
+				2DE1226C1A412DE60065AC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE1226D1A412DE60065AC06 /* Build configuration list for PBXNativeTarget "WOWMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE1226E1A412DE60065AC06 /* Debug */,
+				2DE1226F1A412DE60065AC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DE122701A412DE60065AC06 /* Build configuration list for PBXNativeTarget "WOWMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE122711A412DE60065AC06 /* Debug */,
+				2DE122721A412DE60065AC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DE1223F1A412DE50065AC06 /* Project object */;
+}
